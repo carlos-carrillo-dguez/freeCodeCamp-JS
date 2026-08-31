@@ -26,8 +26,10 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Proyecto de bot interactivo que muestra datos curiosos reutilizando variables y actualizando su contenido paso a paso.
 * `03-logic-checker-app/`
     Práctica utilizando condicionales y evaluación de booleanos.
-* `04-math-object.mathbot`
+* `04-math-object-mathbot`
     Aplicar los diferentes métodos del objeto Math.
+* `05-lab-random-fortune`
+    Ejercicio práctico enfocado en la generación de números aleatorios con el objeto `Math` y el uso de estructuras condicionales (`if...else`) para la selección dinámica de fortunas.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -40,3 +42,4 @@ node 01-lab-sentence-maker/script.js
 node 02-lab-fun-fact-bot/script.js
 node 03-logic-checker-app/script.js
 node 04-math-object-mathbot/script.js
+node 05-lab-random-fortune/script.js
