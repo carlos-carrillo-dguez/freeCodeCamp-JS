@@ -39,3 +39,4 @@ Puedes clonar este repositorio y ejecutar cualquier archivo con **Node.js**:
 node 01-lab-sentence-maker/script.js
 node 02-lab-fun-fact-bot/script.js
 node 03-logic-checker-app/script.js
+node 04-math-object-mathbot/script.js
