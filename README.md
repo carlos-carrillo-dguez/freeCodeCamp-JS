@@ -27,7 +27,7 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
 * `03-logic-checker-app/`
     Práctica utilizando condicionales y evaluación de booleanos.
 * `04-math-object.mathbot`
-    Aplicar los diferentes métodos del objeto Math
+    Aplicar los diferentes métodos del objeto Math.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
