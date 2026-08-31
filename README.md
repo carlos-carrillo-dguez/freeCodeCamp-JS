@@ -13,6 +13,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Concatenación de variables y valores dinámicos.
 * **Control de flujo:** 
     Estructuras condicionales (`if`, `if...else`), operadores de comparación (`>=`, `==`) y evaluación de valores *truthy* y *falsy*.
+* **Objeto Math:** 
+    Generación de números aleatorios en un rango y redondear valores con métodos como `Math.random()`, `Math.floor()`, `Math.ceil()`, `Math.round()`, `Math.max()` y `Math.min()`.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -24,6 +26,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Proyecto de bot interactivo que muestra datos curiosos reutilizando variables y actualizando su contenido paso a paso.
 * `03-logic-checker-app/`
     Práctica utilizando condicionales y evaluación de booleanos.
+* `04-math-object.mathbot`
+    Aplicar los diferentes métodos del objeto Math
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
