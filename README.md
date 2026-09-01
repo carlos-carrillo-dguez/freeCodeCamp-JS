@@ -8,13 +8,17 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
 ## Tecnologías y Conceptos Aprendidas.
 
 * **Sintaxis básica de JavaScript:** 
-    Declaración de variables (`let`, `const`), tipos de datos primitivos (cadenas de texto, booleanos, números).
+    Declaración de variables (`let`, `const`), tipos de datos primitivos (cadenas de texto, booleanos, números) y verificación de tipos con el operador `typeof`.
 * **Manipulación de cadenas:** 
     Concatenación de variables y valores dinámicos.
-* **Control de flujo:** 
-    Estructuras condicionales (`if`, `if...else`), operadores de comparación (`>=`, `==`) y evaluación de valores *truthy* y *falsy*.
+* **Control de flujo y manejo de casos borde:** 
+    Estructuras condicionales (`if`, `if...else`), operadores de comparación (`>=`, `==`, `===`), evaluación de valores *truthy* y *falsy*, y validación de errores lógicos (como la prevención de división por cero).
 * **Objeto Math:** 
-    Generación de números aleatorios en un rango y redondear valores con métodos como `Math.random()`, `Math.floor()`, `Math.ceil()`, `Math.round()`, `Math.max()` y `Math.min()`.
+    Cálculo de potencias y raíces cuadradas (`Math.pow()`, `Math.sqrt()`), generación de números aleatorios en un rango y redondeo de valores (`Math.random()`, `Math.floor()`, `Math.ceil()`, `Math.round()`, `Math.max()`, `Math.min()`).
+* **Funciones y modularidad:** 
+    Declaración de funciones, paso de parámetros/argumentos, retorno de valores (`return`) y reutilización de código.
+* **Operadores JavaScript:** 
+    Operadores aritméticos básicos, operador de exponenciación (`**`) y comparación estricta (`===`).
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -30,6 +34,10 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Aplicar los diferentes métodos del objeto Math.
 * `05-lab-random-fortune`
     Ejercicio práctico enfocado en la generación de números aleatorios con el objeto `Math` y el uso de estructuras condicionales (`if...else`) para la selección dinámica de fortunas.
+* `06-calculator-lab`
+    Implementación de una calculadora modular en JS utilizando funciones con parámetros, operadores aritméticos, exponenciación (`**`), métodos como `Math.sqrt()` y validación de casos borde (como la prevención de división por cero).
+* `07-lab-boo-who`
+   Creación de una función de verificación booleana (`booWho`) utilizando el operador `typeof` y evaluación de tipos de datos primitivos para determinar si un valor es estrictamente de tipo booleano (`true` o `false`).
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -43,3 +51,5 @@ node 02-lab-fun-fact-bot/script.js
 node 03-logic-checker-app/script.js
 node 04-math-object-mathbot/script.js
 node 05-lab-random-fortune/script.js
+node 06-calculator-lab/script.js
+node 07-lab-boo-who/script.js
