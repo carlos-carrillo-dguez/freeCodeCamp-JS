@@ -10,7 +10,7 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
 * **Sintaxis básica de JavaScript:** 
     Declaración de variables (`let`, `const`), tipos de datos primitivos (cadenas de texto, booleanos, números) y verificación de tipos con el operador `typeof`.
 * **Manipulación de cadenas:** 
-    Concatenación de variables y valores dinámicos.
+    Concatenación de variables, búsqueda de posiciones (`indexOf()`), extracción de subcadenas (`slice()`) y repetición dinámica de caracteres (`repeat()`).
 * **Control de flujo y manejo de casos borde:** 
     Estructuras condicionales (`if`, `if...else`), operadores de comparación (`>=`, `==`, `===`), evaluación de valores *truthy* y *falsy*, y validación de errores lógicos (como la prevención de división por cero).
 * **Objeto Math:** 
@@ -38,6 +38,9 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Implementación de una calculadora modular en JS utilizando funciones con parámetros, operadores aritméticos, exponenciación (`**`), métodos como `Math.sqrt()` y validación de casos borde (como la prevención de división por cero).
 * `07-lab-boo-who`
    Creación de una función de verificación booleana (`booWho`) utilizando el operador `typeof` y evaluación de tipos de datos primitivos para determinar si un valor es estrictamente de tipo booleano (`true` o `false`).
+* `08-lab-enmascarar-email`
+    Creación de una función para ocultar el nombre de usuario de un correo electrónico mediante asteriscos (`maskEmail`), conservando la primera y última letra del usuario junto al dominio usando `indexOf()`, `slice()` y `repeat()`.
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -53,3 +56,4 @@ node 04-math-object-mathbot/script.js
 node 05-lab-random-fortune/script.js
 node 06-calculator-lab/script.js
 node 07-lab-boo-who/script.js
+node 08-lab-enmascarar-email/script.js
