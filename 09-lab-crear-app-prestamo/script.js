@@ -24,12 +24,13 @@ function getLoanMessage(annualIncome, creditScore) {
   }
 }
 
-// Prueba de la funcion y su impresion de resultado
+// Creacion de las variables guardando los resultados de llamar a la funcion getLoanMessage con diferentes casos
 const duplexLoanMsg = getLoanMessage(85000, 850);
 const condoLoanMsg = getLoanMessage(65000, 690);
 const carLoanMsg = getLoanMessage(45000, 660);
-const noLoanMsg =getLoanMessage(25000, 550);
+const noLoanMsg = getLoanMessage(25000, 550);
 
+// llamada a las variables
 console.log(duplexLoanMsg); // Output: You qualify for a duplex, condo, and car loan.
 console.log(condoLoanMsg); // Output: You qualify for a condo and car loan.
 console.log(carLoanMsg); // Output: You qualify for a car loan.
