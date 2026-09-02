@@ -30,7 +30,7 @@ const condoLoanMsg = getLoanMessage(65000, 690);
 const carLoanMsg = getLoanMessage(45000, 660);
 const noLoanMsg =getLoanMessage(25000, 550);
 
-console.log(duplexLoanMsg); // You qualify for a duplex, condo, and car loan.
-console.log(condoLoanMsg); // You qualify for a condo and car loan.
-console.log(carLoanMsg); // You qualify for a car loan.
-console.log(noLoanMsg); // You don't qualify for any loans.
+console.log(duplexLoanMsg); // Output: You qualify for a duplex, condo, and car loan.
+console.log(condoLoanMsg); // Output: You qualify for a condo and car loan.
+console.log(carLoanMsg); // Output: You qualify for a car loan.
+console.log(noLoanMsg); // Output: You don't qualify for any loans.
