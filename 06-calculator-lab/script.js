@@ -39,7 +39,7 @@ function calculateSquare(num) {
 console.log(calculateSquare(2));
 console.log(calculateSquare(9));
 
-// Raiz cuadrada
+// Raiz cuadrada 
 function calculateSquareRoot(num) {
   return Math.sqrt(num);
 }
