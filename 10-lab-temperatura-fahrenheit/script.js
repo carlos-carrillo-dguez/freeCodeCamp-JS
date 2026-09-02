@@ -9,7 +9,7 @@ function convertCtoF(num){
     return num *(9/5) + 32;
 }
 
-// Prueba de ejecucion
+// Prueba de ejecucion con su resultado en terminal
 console.log(convertCtoF(-30)); //22
 console.log(convertCtoF(-10)); //14
 console.log(convertCtoF(-30)); //22
