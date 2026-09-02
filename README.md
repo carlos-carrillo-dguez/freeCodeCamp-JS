@@ -42,6 +42,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Creación de una función para ocultar el nombre de usuario de un correo electrónico mediante asteriscos (`maskEmail`), conservando la primera y última letra del usuario junto al dominio usando `indexOf()`, `slice()` y `repeat()`.
 * `09-lab-crear-app-prestamo`
     Implementación de un sistema de evaluación de calificaciones crediticias y préstamos (`getLoanMessage`) utilizando condicionales compuestos (`if / else if / else`) y operadores lógicos (`&&`).
+* `10-lab-temperatura-fahrenheit`
+    Implementación de una función de conversión de unidades de temperatura (`convertCtoF`) que transforma valores de grados Celsius a Fahrenheit aplicando fórmulas matemáticas básicas en el retorno de la función.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
@@ -60,3 +62,4 @@ node 06-calculator-lab/script.js
 node 07-lab-boo-who/script.js
 node 08-lab-enmascarar-email/script.js
 node 09-lab-crear-app-prestamo/script.js
+node 10-lab-temperatura-fahrenheit/script.js
