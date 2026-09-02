@@ -1,4 +1,4 @@
-// Variable email
+// Creacion de una variable para email
 const email = "carlos@prueba.com";
 
 // crear la funcion maskEmail
