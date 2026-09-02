@@ -12,13 +12,13 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
 * **Manipulación de cadenas:** 
     Concatenación de variables, búsqueda de posiciones (`indexOf()`), extracción de subcadenas (`slice()`) y repetición dinámica de caracteres (`repeat()`).
 * **Control de flujo y manejo de casos borde:** 
-    Estructuras condicionales (`if`, `if...else`), operadores de comparación (`>=`, `==`, `===`), evaluación de valores *truthy* y *falsy*, y validación de errores lógicos (como la prevención de división por cero).
+    Estructuras condicionales (`if`, `if...else`), operadores de comparación (`>=`, `==`, `===`), evaluación de condiciones múltiples, valores *truthy* y *falsy*, y validación de errores lógicos (como la prevención de división por cero).
 * **Objeto Math:** 
     Cálculo de potencias y raíces cuadradas (`Math.pow()`, `Math.sqrt()`), generación de números aleatorios en un rango y redondeo de valores (`Math.random()`, `Math.floor()`, `Math.ceil()`, `Math.round()`, `Math.max()`, `Math.min()`).
 * **Funciones y modularidad:** 
     Declaración de funciones, paso de parámetros/argumentos, retorno de valores (`return`) y reutilización de código.
 * **Operadores JavaScript:** 
-    Operadores aritméticos básicos, operador de exponenciación (`**`) y comparación estricta (`===`).
+    Operadores aritméticos básicos, operador de exponenciación (`**`), comparación estricta (`===`) y operadores lógicos (`&&`).
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -40,6 +40,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
    Creación de una función de verificación booleana (`booWho`) utilizando el operador `typeof` y evaluación de tipos de datos primitivos para determinar si un valor es estrictamente de tipo booleano (`true` o `false`).
 * `08-lab-enmascarar-email`
     Creación de una función para ocultar el nombre de usuario de un correo electrónico mediante asteriscos (`maskEmail`), conservando la primera y última letra del usuario junto al dominio usando `indexOf()`, `slice()` y `repeat()`.
+* `09-lab-crear-app-prestamo`
+    Implementación de un sistema de evaluación de calificaciones crediticias y préstamos (`getLoanMessage`) utilizando condicionales compuestos (`if / else if / else`) y operadores lógicos (`&&`).
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
@@ -57,3 +59,4 @@ node 05-lab-random-fortune/script.js
 node 06-calculator-lab/script.js
 node 07-lab-boo-who/script.js
 node 08-lab-enmascarar-email/script.js
+node 09-lab-crear-app-prestamo/script.js
