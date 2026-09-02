@@ -16,4 +16,4 @@ function maskEmail(email){
     
     return primLetra + estrellaNombre + ultiLetraNombre + nombreDominio;
 }
-console.log(maskEmail(email)); //c****s@prueba.com
+console.log(maskEmail(email)); //Output: c****s@prueba.com
