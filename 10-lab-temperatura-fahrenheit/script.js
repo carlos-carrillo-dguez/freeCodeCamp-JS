@@ -10,9 +10,9 @@ function convertCtoF(num){
 }
 
 // Prueba de ejecucion con su resultado en terminal
-console.log(convertCtoF(-30)); //22
-console.log(convertCtoF(-10)); //14
-console.log(convertCtoF(-30)); //22
-console.log(convertCtoF(0)); //32
-console.log(convertCtoF(20)); //68
-console.log(convertCtoF(30)); //86
+console.log(convertCtoF(-30)); // Output: 22
+console.log(convertCtoF(-10)); // Output: 14
+console.log(convertCtoF(-30)); // Output: 22
+console.log(convertCtoF(0)); // Output: 32
+console.log(convertCtoF(20)); // Output: 68
+console.log(convertCtoF(30)); // Output: 86
