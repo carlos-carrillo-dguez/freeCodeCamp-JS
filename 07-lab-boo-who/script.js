@@ -13,3 +13,29 @@ function booWho(argumento){
     return false;
   }
 }
+
+// Casos de prueba freeCodeCamp
+console.log(booWho(true)); // Output: true
+console.log(booWho(false)); // Output: true
+console.log(booWho([1, 2, 3])); // Output: false
+console.log(booWho([].slice)); // Output: false
+console.log(booWho({ "a": 1 })); // Output: false
+console.log(booWho(1)); // Output: false
+console.log(booWho(NaN)); // Output: false
+console.log(booWho("a")); // Output: false
+console.log(booWho("true")); // Output: false
+console.log(booWho("false")); // Output: false
+
+/*
+  Salida en terminal:
+    true
+    true
+    false
+    false
+    false
+    false
+    false
+    false
+    false
+    false    
+*/
