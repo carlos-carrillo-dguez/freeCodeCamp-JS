@@ -10,7 +10,7 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
 * **Sintaxis básica de JavaScript:** 
     Declaración de variables (`let`, `const`), tipos de datos primitivos (cadenas de texto, booleanos, números) y verificación de tipos con el operador `typeof`.
 * **Manipulación de cadenas:** 
-    Concatenación de variables, búsqueda de posiciones (`indexOf()`), extracción de subcadenas (`slice()`) y repetición dinámica de caracteres (`repeat()`).
+    Concatenación de variables, búsqueda de posiciones (`indexOf()`), extracción de subcadenas (`slice()`) y repetición dinámica de caracteres (`repeat()`), evaluación de longitud (`.length`) y truncado condicional con puntos suspensivos (`...`).
 * **Control de flujo y manejo de casos borde:** 
     Estructuras condicionales (`if`, `if...else`), operadores de comparación (`>=`, `==`, `===`), evaluación de condiciones múltiples, valores *truthy* y *falsy*, y validación de errores lógicos (como la prevención de división por cero).
 * **Objeto Math:** 
@@ -52,7 +52,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Implementación de una función de conteo de cartas para blackjack (`cardCounter`) que modifica una variable global en función de los valores recibidos (números y cadenas) y devuelve la decisión de juego (`Bet` o `Hold`) formateada.
 * `12-lab-leap-year-calculator/script.js`
     Implementación de una función (`isLeapYear`) que determina si un año es bisiesto aplicando la regla de divisibilidad por 4, la excepción de divisibilidad por 100 y la regla del siglo por 400 mediante expresiones lógicas compuestas.
-
+* `13-lab.truncar-string/script.js`
+    Implementación de una función (`truncateString`) que evalúa la longitud de un texto mediante `.length` y lo recorta a un límite indicado usando `slice()`, concatenando puntos suspensivos (`...`) solo cuando la cadena original supera dicha cantidad.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -73,3 +74,4 @@ node 09-lab-crear-app-prestamo/script.js
 node 10-lab-temperatura-fahrenheit/script.js
 node 11-lab-conteo-cartas/script.js
 node 12-lab-leap-year-calculator/script.js
+node 13-lab.truncar-string/script.js
