@@ -21,6 +21,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Operadores aritméticos básicos, operador de exponenciación (`**`), comparación estricta (`===`) y operadores lógicos (`&&`).
 * **Estructuras de datos y variables globales:**
     Manejo de estado acumulativo con variables globales (`count`), evaluación de múltiples condiciones mediante el operador lógico OR (`||`) y toma de decisiones dinámica combinando `if...else if` con cadenas formateadas.
+* **Lógica de años bisiestos y operadores combinados:**
+    Implementación de condiciones lógicas compuestas combinando los operadores `&&` (AND), `||` (OR) y el operador módulo (`%`) para evaluar divisibilidad y precedencia de operadores en problemas reales.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -48,10 +50,13 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Implementación de una función de conversión de unidades de temperatura (`convertCtoF`) que transforma valores de grados Celsius a Fahrenheit aplicando fórmulas matemáticas básicas en el retorno de la función.
 * `11-lab-conteo-cartas`
     Implementación de una función de conteo de cartas para blackjack (`cardCounter`) que modifica una variable global en función de los valores recibidos (números y cadenas) y devuelve la decisión de juego (`Bet` o `Hold`) formateada.
+* `12-lab-leap-year-calculator/script.js`
+    Implementación de una función (`isLeapYear`) que determina si un año es bisiesto aplicando la regla de divisibilidad por 4, la excepción de divisibilidad por 100 y la regla del siglo por 400 mediante expresiones lógicas compuestas.
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-## ¿Cómo ejecutarlos  los ejercicios?
+## ¿Cómo ejecutar los ejercicios?
 
 Puedes clonar este repositorio y ejecutar cualquier archivo con **Node.js**:
 
@@ -67,3 +72,4 @@ node 08-lab-enmascarar-email/script.js
 node 09-lab-crear-app-prestamo/script.js
 node 10-lab-temperatura-fahrenheit/script.js
 node 11-lab-conteo-cartas/script.js
+node 12-lab-leap-year-calculator/script.js
