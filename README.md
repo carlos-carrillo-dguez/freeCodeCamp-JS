@@ -23,7 +23,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Manejo de estado acumulativo con variables globales (`count`), evaluación de múltiples condiciones mediante el operador lógico OR (`||`) y toma de decisiones dinámica combinando `if...else if` con cadenas formateadas.
 * **Lógica de años bisiestos y operadores combinados:**
     Implementación de condiciones lógicas compuestas combinando los operadores `&&` (AND), `||` (OR) y el operador módulo (`%`) para evaluar divisibilidad y precedencia de operadores en problemas reales.
-
+* **Estructuras de datos (Arrays) y manipulación:** 
+    Creación e inicialización de matrices vacías, adición de elementos al inicio y final (`unshift()`, `push()`), eliminación de elementos (`shift()`, `pop()`), modificación de elementos por índice (`array[0]`) e interpolación de matrices dentro de funciones mediante *template literals*.
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Contenido.
@@ -56,6 +57,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Implementación de una función (`truncateString`) que evalúa la longitud de un texto mediante `.length` y lo recorta a un límite indicado usando `slice()`, concatenando puntos suspensivos (`...`) solo cuando la cadena original supera dicha cantidad.
 * `14-lab-confirm-ending/script.js`
     Implementación de la función `confirmEnding` que determina si un texto finaliza con una subcadena específica. Utiliza `.length` para calcular la dimensión del sufijo buscado y `.slice()` con índice negativo para extraer y comparar estrictamente los últimos caracteres sin emplear `.endsWith()`.
+* `15-workshop-shoppinglist-array/script.js`
+    Desarrollo de una lista de compras interactiva utilizando una matriz. Práctica de métodos mutadores de arrays (`push()`, `unshift()`, `pop()`, `shift()`), modificación directa por índice y formateo dinamico del contenido mediante una función con *template literals*.
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ¿Cómo ejecutar los ejercicios?
@@ -77,3 +80,4 @@ node 11-lab-conteo-cartas/script.js
 node 12-lab-leap-year-calculator/script.js
 node 13-lab-truncar-string/script.js
 node 14-lab-confirm-ending/script.js
+node 15-workshop-shoppinglist-array/script.js
