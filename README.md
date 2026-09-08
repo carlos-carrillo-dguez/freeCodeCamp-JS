@@ -25,6 +25,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Implementación de condiciones lógicas compuestas combinando los operadores `&&` (AND), `||` (OR) y el operador módulo (`%`) para evaluar divisibilidad y precedencia de operadores en problemas reales.
 * **Estructuras de datos (Arrays) y manipulación:** 
     Creación e inicialización de matrices vacías, adición de elementos al inicio y final (`unshift()`, `push()`), eliminación de elementos (`shift()`, `pop()`), modificación de elementos por índice (`array[0]`) e interpolación de matrices dentro de funciones mediante *template literals*.
+* **Estructuras de datos (Arrays) y manipulación:** 
+    Creación e inicialización de matrices vacías, adición de elementos al inicio y final (`unshift()`, `push()`), eliminación de elementos (`shift()`, `pop()`), modificación de elementos por índice (`array[0]`), unión de elementos formateados con `.join(", ")`, selección aleatoria mediante índices calculados con `Math.random()` y control de casos borde para evitar errores con matrices vacías (`array.length > 0`).
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Contenido.
@@ -59,6 +61,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Implementación de la función `confirmEnding` que determina si un texto finaliza con una subcadena específica. Utiliza `.length` para calcular la dimensión del sufijo buscado y `.slice()` con índice negativo para extraer y comparar estrictamente los últimos caracteres sin emplear `.endsWith()`.
 * `15-workshop-shoppinglist-array/script.js`
     Desarrollo de una lista de compras interactiva utilizando una matriz. Práctica de métodos mutadores de arrays (`push()`, `unshift()`, `pop()`, `shift()`), modificación directa por índice y formateo dinamico del contenido mediante una función con *template literals*.
+* `16-lab-programe-lunch-picker/script.js`
+    Desarrollo de un sistema de gestión de menús de almuerzo. Implementación de funciones modulares para añadir (`push`, `unshift`), eliminar (`pop`, `shift`), seleccionar elementos aleatorios (`Math.random`) y listar opciones (`.join()`), asegurando el manejo seguro de casos borde en matrices vacías (`.length`).
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ¿Cómo ejecutar los ejercicios?
@@ -81,3 +85,4 @@ node 12-lab-leap-year-calculator/script.js
 node 13-lab-truncar-string/script.js
 node 14-lab-confirm-ending/script.js
 node 15-workshop-shoppinglist-array/script.js
+node 16-lab-programe-lunch-picker/script.js
