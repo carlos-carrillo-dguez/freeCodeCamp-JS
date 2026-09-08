@@ -1,3 +1,13 @@
+/**
+ *  Bot interactivo de datos curiosos sobre programacion
+ *  Uso de variables, concatenación de cadenas y reasignacion de valores
+ * 
+ *      @type {string} botName - Nombre del bot
+ *      @type {string} botLocation - Ubicacion geografica del bot
+ *      @type {string} favoriteLanguage - Lenguaje de programacion favorito
+ *      @type {string} codingFact - Cadena dinamica utilizada para mostrar datos
+ */
+
 // Mensaje de saludo
 console.log ("Hello! I'm your coding fun fact guide!"); // Hello! I'm your coding fun fact guide!
 
