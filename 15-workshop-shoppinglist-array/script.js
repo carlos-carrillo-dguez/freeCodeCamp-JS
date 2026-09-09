@@ -10,6 +10,12 @@ console.log("It will be nice to have some fruit to eat."); // Output: It will be
 // Como agregar el primer elemento `("Apples")` que aparecera al final por el metodo (.push)
 shoppingList.push("Apples");
 
+/**
+ * 
+ * @param {string[]} arr - Array con los elementos de la lista de la compra 
+ * @returns {string} Mensaje formateando que indica la lista actual por pantalla
+ */
+
 // Creación de la función getShoppingListMsg para formatear la salida de la lista shoppingList[]
 function getShoppingListMsg(arr) {
   return `Current Shopping List: ${arr}`;
