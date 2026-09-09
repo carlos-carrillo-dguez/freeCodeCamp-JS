@@ -11,7 +11,6 @@ console.log("It will be nice to have some fruit to eat."); // Output: It will be
 shoppingList.push("Apples");
 
 /**
- * 
  * @param {string[]} arr - Array con los elementos de la lista de la compra 
  * @returns {string} Mensaje formateando que indica la lista actual por pantalla
  */
