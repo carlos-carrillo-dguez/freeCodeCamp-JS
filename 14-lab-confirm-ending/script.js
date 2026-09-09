@@ -1,14 +1,9 @@
-/*
-    Creamos la funcion confirmEnding. dentro de ella le damos dos argumentos:
-        1. cadenaA => el texto completo a evaluar (String)
-        2. cadenaB => la terminación o subcadena que queremos verificar (String)
-    
-        if => Extrae los últimos caracteres de 'cadenaA' usando slice() con un índice 
-            negativo (-cadenaB.length) y comprueba si ese fragmento es estrictamente 
-            igual a 'cadenaB'.
-                Si se cumple devuelve: true
-        else => Si el final no coincide, devuelve false
-*/
+/**
+ *  Evaluamos si una cadena de texto termina con una subcadena especifica
+ *      @param {string} cadenaA 
+ *      @param {string} cadenaB 
+ *      @returns {boolean} `true` si la cadena termina con el objetivo, pero si es al contrario devuelve `false`
+ */
 
 function confirmEnding(cadenaA, cadenaB){
     if (cadenaA.slice(-cadenaB.length) === (cadenaB)){
