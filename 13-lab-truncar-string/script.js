@@ -8,6 +8,14 @@
         else => Si la longitud es menor o igual a 'num', devuelve la cadena original sin cambios
 */
 
+/**
+ *  Truncar una cadena de texto si excede la longitud maxima especificada y añadir (...)
+ * 
+ *      @param {string} cadena - La cadena de texto a evaluar
+ *      @param {number} num - la longitud maxima permitida antes de truncar
+ *      @returns {string} La cadena recortada con "..." al final si se supera `num`, o la cadena original intacta
+ */
+
 function truncateString (cadena, num){
     if (cadena.length > num ){
         return cadena.slice(0, num) + "...".repeat(1);
