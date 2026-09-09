@@ -1,10 +1,10 @@
-// Creacion de la variable global year para su evaluacion
+// Creacion de la variable global
 let year = 2000;
 
-/* La condicion (if / else) evalúa las siguientes reglas:
-    Un año es bisiesto si es divisible entre 4.
-    No es bisiesto si es divisible entre 100.
-        A MENOS que también sea divisible entre 400.
+/**
+ *  Determina si un año dado es bisiesto aplicando las reglas del calendario gregoriano.
+ *      @param {number} num - año de 4 digitos
+ *      @returns {string} Mensaje descriptivo que confirma si el año es bisiesto o no. 
  */
 
 function isLeapYear(num){
@@ -14,11 +14,6 @@ function isLeapYear(num){
         return num + " " + "is not a leap year.";
     }
 }
-
-/* 
-    Creacion de la variable result donde se almacena el resultado de la llamada a la function isLeapYear
-    y su impresion en consola
-*/
 
 let result = isLeapYear(year);
 console.log(result); // Output: 2000 is a leap year.
