@@ -1,3 +1,8 @@
+/**
+ * Creador de historias dinámicas
+ * Generar dos historias utilizando plantilla fija de texto, declaracion, uso y reasignacion de variable
+ */
+
 // Primera historia
 let adjective = "happy";
 let noun = "dog";
