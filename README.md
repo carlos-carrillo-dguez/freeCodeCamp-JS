@@ -17,6 +17,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Cálculo de potencias y raíces cuadradas (`Math.pow()`, `Math.sqrt()`), generación de números aleatorios en un rango y redondeo de valores (`Math.random()`, `Math.floor()`, `Math.ceil()`, `Math.round()`, `Math.max()`, `Math.min()`).
 * **Funciones y modularidad:** 
     Declaración de funciones, paso de parámetros/argumentos, retorno de valores (`return`) y reutilización de código.
+* **Funciones Flecha (ES6) y Documentación:**
+    Transición a la sintaxis moderna de funciones flecha (`const miFuncion = () => {}`), comprensión del retorno implícito/explícito y estandarización del código mediante comentarios **JSDoc** (`@param`, `@returns`) para definir tipos de datos (`Object`, `string`, `number`, `boolean`).
 * **Operadores JavaScript:** 
     Operadores aritméticos básicos, operador de exponenciación (`**`), comparación estricta (`===`) y operadores lógicos (`&&`).
 * **Estructuras de datos y variables globales:**
@@ -27,6 +29,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Creación e inicialización de matrices vacías, adición de elementos al inicio y final (`unshift()`, `push()`), eliminación de elementos (`shift()`, `pop()`), modificación de elementos por índice (`array[0]`) e interpolación de matrices dentro de funciones mediante *template literals*.
 * **Estructuras de datos (Arrays) y manipulación:** 
     Creación e inicialización de matrices vacías, adición de elementos al inicio y final (`unshift()`, `push()`), eliminación de elementos (`shift()`, `pop()`), modificación de elementos por índice (`array[0]`), unión de elementos formateados con `.join(", ")`, selección aleatoria mediante índices calculados con `Math.random()` y control de casos borde para evitar errores con matrices vacías (`array.length > 0`).
+* **Manipulación de Objetos en JavaScript:**
+    Creación de estructuras de datos clave-valor, lectura de propiedades con notación de punto (`objeto.propiedad`) y lectura dinámica con notación de corchetes (`objeto[variable]`), mutación de datos, adición de nuevas propiedades, eliminación con la palabra clave `delete` y verificación de existencia con `.hasOwnProperty()`.
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Contenido.
@@ -63,6 +67,10 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Desarrollo de una lista de compras interactiva utilizando una matriz. Práctica de métodos mutadores de arrays (`push()`, `unshift()`, `pop()`, `shift()`), modificación directa por índice y formateo dinamico del contenido mediante una función con *template literals*.
 * `16-lab-programe-lunch-picker/script.js`
     Desarrollo de un sistema de gestión de menús de almuerzo. Implementación de funciones modulares para añadir (`push`, `unshift`), eliminar (`pop`, `shift`), seleccionar elementos aleatorios (`Math.random`) y listar opciones (`.join()`), asegurando el manejo seguro de casos borde en matrices vacías (`.length`).
+* `17-lab-golf-score-translate/script.js`
+    Traductor de puntuación de golf que evalúa los golpes lanzados (`strokes`) con respecto al par del hoyo (`par`) utilizando una estructura de condicionales encadenados `if...else if` para retornar la denominación exacta del juego.
+* `18-lab-objects-practice/script.js`
+    Desarrollo del proyecto *Wildlife Tracker* para la gestión y manipulación de objetos en JS. Implementación de operaciones CRUD en propiedades de objetos, lectura con notación de punto y de corchetes (`[]`), verificación de existencia mediante `.hasOwnProperty()` y funciones flecha (ES6).
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ¿Cómo ejecutar los ejercicios?
@@ -86,3 +94,5 @@ node 13-lab-truncar-string/script.js
 node 14-lab-confirm-ending/script.js
 node 15-workshop-shoppinglist-array/script.js
 node 16-lab-programe-lunch-picker/script.js
+node 17-lab-golf-score-translate/script.js
+node 18-lab-objects-practice/script.js
