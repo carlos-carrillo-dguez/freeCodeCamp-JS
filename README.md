@@ -31,6 +31,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Creación e inicialización de matrices vacías, adición de elementos al inicio y final (`unshift()`, `push()`), eliminación de elementos (`shift()`, `pop()`), modificación de elementos por índice (`array[0]`), unión de elementos formateados con `.join(", ")`, selección aleatoria mediante índices calculados con `Math.random()` y control de casos borde para evitar errores con matrices vacías (`array.length > 0`).
 * **Manipulación de Objetos en JavaScript:**
     Creación de estructuras de datos clave-valor, lectura de propiedades con notación de punto (`objeto.propiedad`) y lectura dinámica con notación de corchetes (`objeto[variable]`), mutación de datos, adición de nuevas propiedades, eliminación con la palabra clave `delete` y verificación de existencia con `.hasOwnProperty()`.
+* **Orquestación modular, inmutabilidad y validación de objetos:**
+    Creación de canalizaciones (*pipelines*) de datos mediante funciones orquestadoras (`processManifest`), transformación inmutable de objetos, validación exhaustiva de propiedades dinámicas, formateo de logs condicionales en consola y control de flujo basado en la existencia de propiedades (`Object.keys()`).
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Contenido.
@@ -71,6 +73,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Traductor de puntuación de golf que evalúa los golpes lanzados (`strokes`) con respecto al par del hoyo (`par`) utilizando una estructura de condicionales encadenados `if...else if` para retornar la denominación exacta del juego.
 * `18-lab-objects-practice/script.js`
     Desarrollo del proyecto *Wildlife Tracker* para la gestión y manipulación de objetos en JS. Implementación de operaciones CRUD en propiedades de objetos, lectura con notación de punto y de corchetes (`[]`), verificación de existencia mediante `.hasOwnProperty()` y funciones flecha (ES6).
+* `19-lab-shipping-manifest/script.js`
+    Desarrollo de un sistema de procesamiento y validación de manifiestos de carga. Implementación de una arquitectura modular mediante funciones flecha (`normalizeUnits`, `validateManifest`, `processManifest`) para transformar unidades de peso de forma inmutable, validar estructuras de datos mediante comprobaciones de tipos (`typeof`, `Number.isInteger`, `Number.isNaN`) y controlar el flujo de ejecución mediante logs condicionales y evaluación del objeto de errores con `Object.keys()`.
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ¿Cómo ejecutar los ejercicios?
@@ -96,3 +100,4 @@ node 15-workshop-shoppinglist-array/script.js
 node 16-lab-programe-lunch-picker/script.js
 node 17-lab-golf-score-translate/script.js
 node 18-lab-objects-practice/script.js
+node 19-lab-shipping-manifest/script.js
