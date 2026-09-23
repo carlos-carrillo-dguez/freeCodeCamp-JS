@@ -33,6 +33,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Creación de estructuras de datos clave-valor, lectura de propiedades con notación de punto (`objeto.propiedad`) y lectura dinámica con notación de corchetes (`objeto[variable]`), mutación de datos, adición de nuevas propiedades, eliminación con la palabra clave `delete` y verificación de existencia con `.hasOwnProperty()`.
 * **Orquestación modular, inmutabilidad y validación de objetos:**
     Creación de canalizaciones (*pipelines*) de datos mediante funciones orquestadoras (`processManifest`), transformación inmutable de objetos, validación exhaustiva de propiedades dinámicas, formateo de logs condicionales en consola y control de flujo basado en la existencia de propiedades (`Object.keys()`).
+* **Estructuras de datos compuestas y actualización dinámica:**
+    Modelado de colecciones complejas combinando objetos anidados dentro de arreglos (*array of objects*), agregando elementos con `.push()`, accediendo a propiedades mediante notación de punto y calculando/asignando valores dinámicos a través de funciones evaluadoras del estado de los datos.
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Contenido.
@@ -75,6 +77,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Desarrollo del proyecto *Wildlife Tracker* para la gestión y manipulación de objetos en JS. Implementación de operaciones CRUD en propiedades de objetos, lectura con notación de punto y de corchetes (`[]`), verificación de existencia mediante `.hasOwnProperty()` y funciones flecha (ES6).
 * `19-lab-shipping-manifest/script.js`
     Desarrollo de un sistema de procesamiento y validación de manifiestos de carga. Implementación de una arquitectura modular mediante funciones flecha (`normalizeUnits`, `validateManifest`, `processManifest`) para transformar unidades de peso de forma inmutable, validar estructuras de datos mediante comprobaciones de tipos (`typeof`, `Number.isInteger`, `Number.isNaN`) y controlar el flujo de ejecución mediante logs condicionales y evaluación del objeto de errores con `Object.keys()`.
+* `20-lab-recetas/script.js`
+    Desarrollo de un rastreador de recetas (*Recipe Tracker*). Modelado de estructuras de datos mediante un arreglo de objetos, implementación de funciones para el cálculo de ingredientes (`getTotalIngredients`) y evaluación del nivel de dificultad según el tiempo de cocción (`getDifficultyLevel`), y actualización dinámica de propiedades dentro de cada objeto.
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ¿Cómo ejecutar los ejercicios?
@@ -101,3 +105,4 @@ node 16-lab-programe-lunch-picker/script.js
 node 17-lab-golf-score-translate/script.js
 node 18-lab-objects-practice/script.js
 node 19-lab-shipping-manifest/script.js
+node 20-lab-recetas/script.js
