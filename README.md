@@ -37,6 +37,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Modelado de colecciones complejas combinando objetos anidados dentro de arreglos (*array of objects*), agregando elementos con `.push()`, accediendo a propiedades mediante notación de punto y calculando/asignando valores dinámicos a través de funciones evaluadoras del estado de los datos.
 * **Estructuras de datos compuestas y selección aleatoria:**
     Desarrollo de un juego de preguntas (*Quiz Game*) mediante la manipulación de arreglos de objetos (*array of objects*), selección aleatoria de elementos e índices con `Math.random()` y `Math.floor()`, evaluación de respuestas mediante comparación estricta (`===`), estructuración modular de funciones y estandarización del código con documentación **JSDoc** (`@param`, `@returns`).
+* **Estructuras de datos compuestas y actualización condicional de objetos:**
+    Modelado y mutación de arreglos y objetos anidados complejos (*nested objects*). Implementación de lógica condicional ramificada para manejar la adición, modificación y eliminación de propiedades con la palabra clave `delete`, acceso dinámico mediante notación de corchetes (`records[id][prop]`), validación de existencia de propiedades con `.hasOwnProperty()`, manipulación de arreglos con `.push()`.
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Contenido.
@@ -83,6 +85,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Desarrollo de un rastreador de recetas (*Recipe Tracker*). Modelado de estructuras de datos mediante un arreglo de objetos, implementación de funciones para el cálculo de ingredientes (`getTotalIngredients`) y evaluación del nivel de dificultad según el tiempo de cocción (`getDifficultyLevel`), y actualización dinámica de propiedades dentro de cada objeto.
 * `21-lab-quiz-game/script.js`
     Desarrollo de un juego de preguntas y respuestas (*Quiz Game*). Implementación de funciones modulares para seleccionar preguntas al azar (`getRandomQuestion`), generar elecciones aleatorias del sistema (`getRandomComputerChoice`), comparar respuestas con igualdad estricta y retornar resultados condicionales (`getResults`).
+* `22-lab-record-collection/script.js`
+    Desarrollo de una función de gestión de álbumes musicales (`updateRecords`). Implementación de lógica condicional compuesta para manipular objetos anidados según dynamic inputs (`id`, `prop`, `value`): eliminación de propiedades en caso de cadenas vacías (`delete`), asignación directa de propiedades genéricas y creación o actualización dinámica de arreglos de canciones (`tracks`) con comprobación de existencia mediante `.hasOwnProperty()`.
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ¿Cómo ejecutar los ejercicios?
@@ -111,3 +115,4 @@ node 18-lab-objects-practice/script.js
 node 19-lab-shipping-manifest/script.js
 node 20-lab-recetas/script.js
 node 21-lab-quiz-game/script.js
+node 22-lab-record-collection/script.js
