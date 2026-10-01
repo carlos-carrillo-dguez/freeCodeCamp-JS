@@ -35,6 +35,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Creación de canalizaciones (*pipelines*) de datos mediante funciones orquestadoras (`processManifest`), transformación inmutable de objetos, validación exhaustiva de propiedades dinámicas, formateo de logs condicionales en consola y control de flujo basado en la existencia de propiedades (`Object.keys()`).
 * **Estructuras de datos compuestas y actualización dinámica:**
     Modelado de colecciones complejas combinando objetos anidados dentro de arreglos (*array of objects*), agregando elementos con `.push()`, accediendo a propiedades mediante notación de punto y calculando/asignando valores dinámicos a través de funciones evaluadoras del estado de los datos.
+* **Estructuras de datos compuestas y selección aleatoria:**
+    Desarrollo de un juego de preguntas (*Quiz Game*) mediante la manipulación de arreglos de objetos (*array of objects*), selección aleatoria de elementos e índices con `Math.random()` y `Math.floor()`, evaluación de respuestas mediante comparación estricta (`===`), estructuración modular de funciones y estandarización del código con documentación **JSDoc** (`@param`, `@returns`).
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Contenido.
@@ -79,6 +81,8 @@ Este repositorio reúne los laboratorios y ejercicios prácticos que voy complet
     Desarrollo de un sistema de procesamiento y validación de manifiestos de carga. Implementación de una arquitectura modular mediante funciones flecha (`normalizeUnits`, `validateManifest`, `processManifest`) para transformar unidades de peso de forma inmutable, validar estructuras de datos mediante comprobaciones de tipos (`typeof`, `Number.isInteger`, `Number.isNaN`) y controlar el flujo de ejecución mediante logs condicionales y evaluación del objeto de errores con `Object.keys()`.
 * `20-lab-recetas/script.js`
     Desarrollo de un rastreador de recetas (*Recipe Tracker*). Modelado de estructuras de datos mediante un arreglo de objetos, implementación de funciones para el cálculo de ingredientes (`getTotalIngredients`) y evaluación del nivel de dificultad según el tiempo de cocción (`getDifficultyLevel`), y actualización dinámica de propiedades dentro de cada objeto.
+* `21-lab-quiz-game/script.js`
+    Desarrollo de un juego de preguntas y respuestas (*Quiz Game*). Implementación de funciones modulares para seleccionar preguntas al azar (`getRandomQuestion`), generar elecciones aleatorias del sistema (`getRandomComputerChoice`), comparar respuestas con igualdad estricta y retornar resultados condicionales (`getResults`).
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ¿Cómo ejecutar los ejercicios?
@@ -106,3 +110,4 @@ node 17-lab-golf-score-translate/script.js
 node 18-lab-objects-practice/script.js
 node 19-lab-shipping-manifest/script.js
 node 20-lab-recetas/script.js
+node 21-lab-quiz-game/script.js
